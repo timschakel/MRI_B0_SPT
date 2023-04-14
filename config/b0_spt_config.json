@@ -1,0 +1,43 @@
+{
+  "actions": {
+    "acqdatetime": {
+      "filters": {
+      	"datetime_filter": {
+      		"SeriesDescription": "SHIM"
+        	}
+      	},
+      "params": {
+      }
+    },
+    "showimages": {
+      "filters": {
+		  "shim_R": {
+		  		"SeriesDescription": "SHIM",
+		    	"ImageType": "['ORIGINAL', 'PRIMARY', 'R_FFE', 'R', 'FFE']"
+		    	},
+	      "shim_P": {
+		  		"SeriesDescription": "SHIM",
+		    	"ImageType": "['ORIGINAL', 'PRIMARY', 'PHASE MAP', 'P', 'FFE']"
+		    	},
+		  "shimmagnet_R": {
+		  		"SeriesDescription": "SHIM_MAGNET",
+		    	"ImageType": "['ORIGINAL', 'PRIMARY', 'R_FFE', 'R', 'FFE']"
+		    	},
+	      "shimmagnet_P": {
+		  		"SeriesDescription": "SHIM_MAGNET",
+		    	"ImageType": "['ORIGINAL', 'PRIMARY', 'PHASE MAP', 'P', 'FFE']"
+		    	}
+      	},
+      "params": {
+      }
+    }
+  },
+  "cfgformat": "20221017",
+  "comments": {
+    "author": "Tim Schakel, UMCU",
+    "description": "WADQC 2 module for MR2MV",
+    "version": "0.1",
+    "params": {
+    }
+  }
+}
